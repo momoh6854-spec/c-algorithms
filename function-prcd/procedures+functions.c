@@ -82,7 +82,7 @@ int main(void) {
     printf("the final value is : %d \n",F);
 }
 */
-/*ex02: procedure for exchange */
+/*ex02: procedure for exchange
 void swap(int x, int y) {
     int z;
     z=x;
@@ -99,5 +99,5 @@ int main(void) {
     swap(x,y);
     printf("the finale value x: %d \n  y: %d ",x,y);
 
-}
+}*/
 

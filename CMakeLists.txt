@@ -1,7 +1,11 @@
-cmake_minimum_required(VERSION 4.3)
-project(untitled C)
+cmake_minimum_required(VERSION 3.20)
+
+project(c-algoithms LANGUAGES C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled "matrix-exo.c")
-target_link_libraries(untitled PRIVATE m)
+add_executable(c-algoithms
+        "function-prcd/procedures+functions.c"
+)
+
+target_link_libraries(c-algoithms PRIVATE m)
