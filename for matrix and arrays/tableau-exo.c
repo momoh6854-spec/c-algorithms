@@ -629,7 +629,7 @@ int main(void) {
 
     }
 }*/
-/*exo 18 : scanf for the array*/
+/*exo 18 : scanf for the array
 
 int main(void) {
     int t[100];
@@ -638,7 +638,7 @@ int main(void) {
 
 
     }
-}
+}*/
     /*exo 19 : for scan
 int main(void) {
     int t[100];
