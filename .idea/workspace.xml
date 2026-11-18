@@ -26,14 +26,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373209e0-8539-4148-bd3c-b0fffda83d96" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-string/string.c" beforeDir="false" afterPath="$PROJECT_DIR$/ex-string/string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for main c/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/for main c/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function-prcd/procedures+functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/function-prcd/procedures+functions.c" afterDir="false" />
-    </list>
+    <list default="true" id="373209e0-8539-4148-bd3c-b0fffda83d96" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
