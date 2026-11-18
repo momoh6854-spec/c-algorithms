@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+/*this is for the gusess exo : */
 int main(void) {
 
 
