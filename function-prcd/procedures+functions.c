@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+
 /*comment declare et afficher une procedure
 void afficherResultat(int n) {
     printf("Le resultat est : %d\n", n);
@@ -100,4 +102,18 @@ int main(void) {
     printf("the finale value x: %d \n  y: %d ",x,y);
 
 }*/
-
+/*exo03 : Calculer le carré d'un entier avec une fonction.
+int carre(int x) {
+    int y;
+    y=(int)pow(x,2);
+    return y;
+}
+int main(void) {
+    int x,y;
+    printf("the value of x is : \n");
+    scanf("%d",&x);
+    y=carre(x);
+    printf("the finale carre is : %d\n",y);
+}
+*/
+/*exo 04:*/

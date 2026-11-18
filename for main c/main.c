@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include<time.h>
 
 
 
@@ -361,7 +362,7 @@ int main(void) {
     else {
         printf("we dont have ");
     }:*/
-/*for the first etoile doing the three steps : */
+/*for the first etoile doing the three steps :
 int main(void) {
 
     for (int i = 0; i < 5; ++i) {
@@ -377,8 +378,90 @@ int main(void) {
     }
 
 
-}
+} */
+/*fo the random number is :
 
+int main(void) {
+    int scr, guess;
+
+    srand(time(NULL));
+    scr = rand() % 10 + 1;
+    printf("the value is : %d",scr);
+
+    for (int i = 1; i <= 3; i++) {
+        printf("Guess the number (1-10): \n ");
+        scanf("%d", &guess);
+
+        if (guess == scr) {
+            printf("You got it!\n");
+
+        }
+         else if (guess >scr ){
+            printf("Too high!\n");
+        }
+        else{
+            printf("Too low!\n");
+
+
+        }
+    }
+    printf("u didnt got the number is : %d\n",scr);
+
+    return 0;
+}
+*/
+/*exo for arrays :*
+
+int main() {
+        int d1, d2;
+        int essai = 0;
+
+        srand(time(NULL));
+
+        do {
+            d1 = rand() % 6 + 1;
+            d2 = rand() % 6 + 1;
+
+            essai++;
+
+            printf("essai %d : d1 = %d, d2 = %d\n",
+                   essai, d1, d2);
+
+        } while (d1 != 6 || d2 != 6);
+
+        printf("Double 6 we got is  !\n");
+        printf("Nombre total d'essais : %d\n", essai);
+    printf("the value u guessed is d1 %d= d2 %d \n",d1,d2);
+        return 0;
+    }*/
+/*suing the arrays : */
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void) {
+    int d[2];
+    int essai = 0;
+
+    srand(time(NULL));
+
+    do {
+        for (int i = 0; i < 2; i++) {
+            d[i] = rand() % 6 + 1;
+        }
+
+        essai++;
+
+        printf("Essai %d : d1 = %d, d2 = %d\n",
+               essai, d[0], d[1]);
+
+    } while (d[0] != 6 || d[1] != 6);
+
+    printf("Double 6! We got it!\n");
+    printf("Nombre total d'essais : %d\n", essai);
+
+    return 0;
+}
 
 
 
