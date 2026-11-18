@@ -434,7 +434,7 @@ int main() {
     printf("the value u guessed is d1 %d= d2 %d \n",d1,d2);
         return 0;
     }*/
-/*suing the arrays : */
+/*suing the arrays : 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -462,7 +462,7 @@ int main(void) {
 
     return 0;
 }
-
+*/
 
 
 
