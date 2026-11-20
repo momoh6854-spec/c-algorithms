@@ -463,6 +463,21 @@ int main(void) {
     return 0;
 }
 */
+/*exo*/
+int main(void){
+ int a,b,c;
+int somme;
+printf("the value is  : \n")
+ scanf("%d",%a);
+ printf("the value is  : \n");
+ scanf("%d",%b);
+printf("the value is  : \n");
+ scanf("%d",%c);
+somme=a+b+c;
+printf("the value is %d : \n",somme);
+
+
+
 
 
 
