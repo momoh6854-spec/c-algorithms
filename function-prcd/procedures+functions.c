@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <math.h>
+#include<stdbool.h>
+
+
 
 /*comment declare et afficher une procedure
 void afficherResultat(int n) {
@@ -110,10 +113,83 @@ int carre(int x) {
 }
 int main(void) {
     int x,y;
-    printf("the value of x is : \n");
+    printf("x value is : \n");
     scanf("%d",&x);
     y=carre(x);
-    printf("the finale carre is : %d\n",y);
+    printf("the sqr is : %d\n",y);
+}*/
+/*exo 04 :the link git :
+ int functionln(int x) {
+
+     return 3*x+2;;
+ }
+int main(void) {
+     int x,f;
+     printf("x =  : \n");
+     scanf("%d",&x);
+     f=functionln(x);
+     printf("f(x)= %d \n",f );
+ }*/
+/*exo 05: proecdure swap :
+void swap(int x, int y) {
+     int temp;
+     temp=x;
+     x=y;
+     y=temp;
+     printf("x: %d \n y: %d \n",x,y);
+ }
+int main(void) {
+     int X,Y;
+     printf("the value of x is : \n");
+     scanf("%d",&X);
+     printf("the value of y is : \n");
+     scanf("%d",&Y);
+     swap(X,Y);
+    return 0;
+
+ }*/
+/*exo 06 : predicat pair
+ bool fcpair(int n) {
+    return n%2==0;
+    }
+int main(void) {
+    int n;
+    printf("the value n is : \n");
+    scanf("%d",&n);
+    if (fcpair(n)){
+        printf("its pair \n");
+    } else {
+        printf("isnt pair");
+    }
+    return 0;
+}*/
+/*exo 07 : Max using 3 number*/
+int Max1(int a, int b, int c) {
+    int max;
+    max=a;
+    if (max<b){
+        max=b;
+        return max;
+    }
+    if ( max<c){
+        max=c;
+        return max;
+    }
+    return max;
 }
-*/
-/*exo 04:*/
+int main(void) {
+    int A,B,C;
+    int Max;
+    printf("A: \n");
+    scanf("%d",&A);
+    printf("B: \n");
+    scanf("%d",&B);
+    printf("C: \n");
+    scanf("%d",&C);
+    Max=Max1(A,B,C);
+    printf("the max value is : %d \n",Max);
+
+}
+
+
+
