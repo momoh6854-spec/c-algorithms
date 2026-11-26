@@ -524,10 +524,12 @@ int main(void) {
 }
 
 */
-/*exo 14 : writing a matrix using the dff*/
+/*exo 14 : writing a matrix using the dff
 int main(void) {
     int n,m;
     int t[100][100];
+    int x=5;
+    int cmp=1;
     printf("the value of the both n: \n m: \n");
     scanf("%d%d",&n,&m);
     for (int i = 0; i < n; ++i) {
@@ -536,13 +538,89 @@ int main(void) {
             scanf("%d",&t[i][j]);
         }
     }
-    printf("we will display our matrix :  \n");
-
     for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m ; j++) {
-            printf("t[%d][%d]=%d \n",i,j,t[i][j]);
+        for (int j = 0; j < m; ++j) {
+            if (t[i][j]==x) {
+                printf("x=%d \n",x);
+                printf("the vale included when t[%d][%d]=%d \n",i,j,x);
+                cmp=1;
+
+            }
+
 
         }
 
     }
+    if (cmp==0) {
+        printf("we didnt get any value \n");
+
     }
+
+    }
+*/
+/*dign
+int main(void) {
+    int n,m;
+    int t[100][100];
+    int somme;
+    printf("n: \n");
+    scanf("%d",&n);
+    printf("m : \n");
+    scanf("%d",&m);
+    for (int i = 0; i < n; ++i) {
+
+        for (int j = 0; j < m; ++j) {
+            printf("t[%d][%d]=",i,j);
+            scanf("%d",&t[i][j]);
+
+        }
+    }
+    somme=0;
+    for (int i = 0; i < n; ++i) {
+
+        for (int j = 0; j < m; ++j) {
+            if (t[i][j]==t[i][i]) {
+                somme+=t[i][i];
+
+            }
+
+
+
+        }
+
+
+
+    }
+    printf("the somme is: %d \n",somme);
+}*/
+
+/*dx*/
+int main(void) {
+    int n,m;
+    int t[100][100];
+    int somme;
+    printf("n: \n");
+    scanf("%d",&n);
+    printf("m : \n");
+    scanf("%d",&m);
+    for (int i = 0; i < n; ++i) {
+
+        for (int j = 0; j < m; ++j) {
+            printf("t[%d][%d]=",i,j);
+            scanf("%d",&t[i][j]);
+
+        }
+
+    }
+    somme=0;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if (t[i][j]==t[i][m-i-1]){
+                somme+=t[i][i];
+            }
+
+        }
+
+    }
+    printf("the somme is : %d\n",somme);
+}
