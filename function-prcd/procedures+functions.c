@@ -163,7 +163,7 @@ int main(void) {
     }
     return 0;
 }*/
-/*exo 07 : Max using 3 number*/
+/*exo 07 : Max using 3 number
 int Max1(int a, int b, int c) {
     int max;
     max=a;
@@ -189,7 +189,28 @@ int main(void) {
     Max=Max1(A,B,C);
     printf("the max value is : %d \n",Max);
 
+}*/
+int Fact(int n) {
+    int f=1;
+    for (int i = 1; i < n; ++i) {
+        f=f*i;
+
+    }
+    return f;
+
 }
+int main(void) {
+    int n,f;
+    do {
+        printf("the n value is : \n");
+        scanf("%d",&n);
+
+    } while (n<0);
+    f=Fact(n);
+    printf("the finale value is for n : %d \n f=%d",n,f);
+}
+
+
 
 
 

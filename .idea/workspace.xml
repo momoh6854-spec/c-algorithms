@@ -29,6 +29,8 @@
     <list default="true" id="373209e0-8539-4148-bd3c-b0fffda83d96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for matrix and arrays/matrix-exo.c" beforeDir="false" afterPath="$PROJECT_DIR$/for matrix and arrays/matrix-exo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for matrix and arrays/tableau-exo.c" beforeDir="false" afterPath="$PROJECT_DIR$/for matrix and arrays/tableau-exo.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function-prcd/procedures+functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/function-prcd/procedures+functions.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,8 +155,29 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/function-prcd/procedures+functions.c</url>
+          <url>file://$PROJECT_DIR$/for matrix and arrays/tableau-exo.c</url>
+          <line>2</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/for matrix and arrays/tableau-exo.c</url>
+          <line>51</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/for matrix and arrays/tableau-exo.c</url>
+          <line>562</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/for matrix and arrays/tableau-exo.c</url>
+          <line>597</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/for matrix and arrays/matrix-exo.c</url>
+          <line>184</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

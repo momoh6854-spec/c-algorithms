@@ -595,26 +595,6 @@ int main(void) {
 } */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*exp18: declaration d un tbl
 
 int main(void) {
@@ -629,7 +609,7 @@ int main(void) {
 
     }
 }*/
-/*exo 18 : scanf for the array*/
+/*exo 18 : scanf for the array
 
 int main(void) {
     int t[100];
@@ -638,7 +618,7 @@ int main(void) {
 
 
     }
-}
+}*/
     /*exo 19 : for scan
 int main(void) {
     int t[100];
@@ -653,4 +633,4 @@ int main(void) {
 
     }
 }*/
-
+/*exo 19 :  create a list using matr*/

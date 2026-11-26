@@ -524,5 +524,25 @@ int main(void) {
 }
 
 */
-/*exo 14: for the new files for the doing well :*/
- 
+/*exo 14 : writing a matrix using the dff*/
+int main(void) {
+    int n,m;
+    int t[100][100];
+    printf("the value of the both n: \n m: \n");
+    scanf("%d%d",&n,&m);
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            printf("t[%d][%d]=",i,j);
+            scanf("%d",&t[i][j]);
+        }
+    }
+    printf("we will display our matrix :  \n");
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m ; j++) {
+            printf("t[%d][%d]=%d \n",i,j,t[i][j]);
+
+        }
+
+    }
+    }
